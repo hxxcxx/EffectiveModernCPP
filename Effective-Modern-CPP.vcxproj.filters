@@ -29,5 +29,11 @@
     <ClInclude Include="type.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Item2.h">
+      <Filter>DeducingTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Item3.h">
+      <Filter>DeducingTypes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

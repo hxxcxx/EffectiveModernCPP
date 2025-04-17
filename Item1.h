@@ -1,3 +1,4 @@
+#pragma once 
 #include <iostream>
 #include "type.h"
 
@@ -24,6 +25,11 @@ namespace Item1 {
             std::cout << "[passArrayOrFunc] T = " << printType<T>() << "\n";
         }
 
+        template<typename T>
+        void passArrayByRef(T& param) {
+            std::cout << "[passArrayByRef] T = " << printType<T>() << "\n";
+        }
+
         static void sampleFunction(int) {}
 
         void run() {
@@ -35,6 +41,12 @@ namespace Item1 {
             passByValue(x);
             passByValue(cx);
             passByValue(rx);
+
+            std::cout << "--- Item1: passByValue ---\n";
+            const char* const ptr =         //ptr是一个常量指针，指向常量对象 
+                "Fun with pointers";
+
+            passByValue(ptr);                         //传递const char * const类型的实参
 
             std::cout << "--- Item1: passByRef ---\n";
             passByRef(x);
@@ -48,6 +60,7 @@ namespace Item1 {
 
             std::cout << "--- Item1: passArrayOrFunc ---\n";
             const char arr[] = "hello";
+            passArrayByRef(arr);
             passArrayOrFunc(arr);
             passArrayOrFunc(&sampleFunction);  // 明确传函数指针
         }

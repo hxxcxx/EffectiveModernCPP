@@ -3,10 +3,12 @@
 
 #include <iostream>
 #include "Item1.h"
+#include "Item2.h"
+#include "Item3.h"
 
 int main()
 {
-    Item1::Demo().run();
+    Item3::Demo().run();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

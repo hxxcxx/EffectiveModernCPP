@@ -132,6 +132,8 @@
     <ClCompile Include="Item1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Item3.h" />
+    <ClInclude Include="Item2.h" />
     <ClInclude Include="type.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
