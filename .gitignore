@@ -46,17 +46,3 @@ TestData/
 *.tmp
 *.temp
 .DS_Store
-/MulanEngine/*.zip
-/MulanEngine/*.txt
-/MulanEngine/*.json
-/MulanEngine/*.png
-/MulanEngine/*.jpg
-/MulanEngine/*.jpeg
-/MulanEngine/*.bmp
-/MulanEngine/*.gif
-/MulanEngine/*.webp
-/MulanEngine/*.heic
-
-# 需要提交的库
-!glfw3dll.lib
-!glfw3.dll
