@@ -50,10 +50,19 @@
     <ClInclude Include="Item8.h">
       <Filter>Modern</Filter>
     </ClInclude>
-    <ClInclude Include="Item8 - 副本 - 副本.h">
+    <ClInclude Include="Item10.h">
       <Filter>Modern</Filter>
     </ClInclude>
-    <ClInclude Include="Item10.h">
+    <ClInclude Include="Item14.h">
+      <Filter>Modern</Filter>
+    </ClInclude>
+    <ClInclude Include="Item15.h">
+      <Filter>Modern</Filter>
+    </ClInclude>
+    <ClInclude Include="Item16.h">
+      <Filter>Modern</Filter>
+    </ClInclude>
+    <ClInclude Include="Item17.h">
       <Filter>Modern</Filter>
     </ClInclude>
   </ItemGroup>

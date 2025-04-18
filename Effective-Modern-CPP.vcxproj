@@ -134,11 +134,14 @@
     <ClCompile Include="Item1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Item14.h" />
+    <ClInclude Include="Item15.h" />
+    <ClInclude Include="Item16.h" />
+    <ClInclude Include="Item17.h" />
     <ClInclude Include="Item3.h" />
     <ClInclude Include="Item2.h" />
     <ClInclude Include="Item5.h" />
     <ClInclude Include="Item7.h" />
-    <ClInclude Include="Item8 - 副本 - 副本.h" />
     <ClInclude Include="Item10.h" />
     <ClInclude Include="Item8.h" />
     <ClInclude Include="type.h" />
