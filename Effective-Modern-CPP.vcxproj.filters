@@ -13,14 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="DeducingTypes">
+    <Filter Include="1.DeducingTypes">
       <UniqueIdentifier>{7d3766d7-0748-4f58-98a9-e2c8bbcc3a3f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Auto">
+    <Filter Include="2.Auto">
       <UniqueIdentifier>{b63e0338-286d-4bfc-8c75-b3a43333279e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Modern">
+    <Filter Include="3.Modern">
       <UniqueIdentifier>{0e8e1aac-1486-4f4c-b6cb-3749a354c420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.SmartPointers">
+      <UniqueIdentifier>{73c4fc42-4c7b-4988-a5f8-d5057e360028}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -28,7 +31,10 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Item1.h">
-      <Filter>DeducingTypes</Filter>
+      <Filter>1.DeducingTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Item22.cxx">
+      <Filter>4.SmartPointers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -36,34 +42,49 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Item2.h">
-      <Filter>DeducingTypes</Filter>
+      <Filter>1.DeducingTypes</Filter>
     </ClInclude>
     <ClInclude Include="Item3.h">
-      <Filter>DeducingTypes</Filter>
+      <Filter>1.DeducingTypes</Filter>
     </ClInclude>
     <ClInclude Include="Item5.h">
-      <Filter>Auto</Filter>
+      <Filter>2.Auto</Filter>
     </ClInclude>
     <ClInclude Include="Item7.h">
-      <Filter>Modern</Filter>
+      <Filter>3.Modern</Filter>
     </ClInclude>
     <ClInclude Include="Item8.h">
-      <Filter>Modern</Filter>
+      <Filter>3.Modern</Filter>
     </ClInclude>
     <ClInclude Include="Item10.h">
-      <Filter>Modern</Filter>
+      <Filter>3.Modern</Filter>
     </ClInclude>
     <ClInclude Include="Item14.h">
-      <Filter>Modern</Filter>
+      <Filter>3.Modern</Filter>
     </ClInclude>
     <ClInclude Include="Item15.h">
-      <Filter>Modern</Filter>
+      <Filter>3.Modern</Filter>
     </ClInclude>
     <ClInclude Include="Item16.h">
-      <Filter>Modern</Filter>
+      <Filter>3.Modern</Filter>
     </ClInclude>
     <ClInclude Include="Item17.h">
-      <Filter>Modern</Filter>
+      <Filter>3.Modern</Filter>
+    </ClInclude>
+    <ClInclude Include="Item18.h">
+      <Filter>4.SmartPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Item19.h">
+      <Filter>4.SmartPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Item20.h">
+      <Filter>4.SmartPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Item21.h">
+      <Filter>4.SmartPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Item22.h">
+      <Filter>4.SmartPointers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

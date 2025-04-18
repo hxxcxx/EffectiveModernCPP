@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Item22.cxx" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Item1.h" />
   </ItemGroup>
@@ -137,7 +138,12 @@
     <ClInclude Include="Item14.h" />
     <ClInclude Include="Item15.h" />
     <ClInclude Include="Item16.h" />
+    <ClInclude Include="Item21.h" />
+    <ClInclude Include="Item20.h" />
+    <ClInclude Include="Item19.h" />
+    <ClInclude Include="Item18.h" />
     <ClInclude Include="Item17.h" />
+    <ClInclude Include="Item22.h" />
     <ClInclude Include="Item3.h" />
     <ClInclude Include="Item2.h" />
     <ClInclude Include="Item5.h" />

@@ -13,10 +13,15 @@
 #include "Item15.h"
 #include "Item16.h"
 #include "Item17.h"
+#include "Item18.h"
+#include "Item19.h"
+#include "Item20.h"
+#include "Item21.h"
+#include "Item22.h"
 
 int main()
 {
-    Item17::Demo().run();
+    Item22::Demo().run();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
