@@ -5,10 +5,14 @@
 #include "Item1.h"
 #include "Item2.h"
 #include "Item3.h"
+#include "Item5.h"
+#include "Item7.h"
+#include "Item8.h"
+#include "Item10.h"
 
 int main()
 {
-    Item3::Demo().run();
+    Item10::Demo().run();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
