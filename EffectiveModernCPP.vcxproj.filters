@@ -28,6 +28,9 @@
     <Filter Include="5.Move">
       <UniqueIdentifier>{7019e572-fb06-4ae1-ac14-8f9663051b1a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="6.lambda">
+      <UniqueIdentifier>{753c1113-5d79-42f7-8712-ab91799dbc1e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -97,6 +100,18 @@
     </ClInclude>
     <ClInclude Include="Item27.h">
       <Filter>5.Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Item31.h">
+      <Filter>6.lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="Item32.h">
+      <Filter>6.lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="Item33.h">
+      <Filter>6.lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="Item34.h">
+      <Filter>6.lambda</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

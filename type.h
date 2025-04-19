@@ -9,6 +9,7 @@
     #define FUNCTION_SIGNATURE __FUNCSIG__
 #endif
 
+
 template<typename T>
 std::string_view printType() {
     std::string_view sig = FUNCTION_SIGNATURE;
