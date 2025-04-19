@@ -95,5 +95,8 @@
     <ClInclude Include="Item24.h">
       <Filter>5.Move</Filter>
     </ClInclude>
+    <ClInclude Include="Item27.h">
+      <Filter>5.Move</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

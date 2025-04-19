@@ -143,6 +143,7 @@
     <ClInclude Include="Item19.h" />
     <ClInclude Include="Item18.h" />
     <ClInclude Include="Item17.h" />
+    <ClInclude Include="Item27.h" />
     <ClInclude Include="Item24.h" />
     <ClInclude Include="Item22.h" />
     <ClInclude Include="Item3.h" />

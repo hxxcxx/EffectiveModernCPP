@@ -26,7 +26,7 @@ namespace Item7 {
         };
         void run() {
             // 1. Default constructor and function declaration bug
-            MyClass obj1();  // This declares a function, not an object
+            //MyClass obj1();  // This declares a function, not an object
             MyClass obj2{};   // Correct: initializes an object
             //MyClass obj1;  // This declares a function, not an object
 
