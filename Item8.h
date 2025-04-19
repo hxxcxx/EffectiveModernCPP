@@ -34,7 +34,7 @@ namespace Item8 {
         void run() {
             std::cout << "Calling f1, f2, f3 with nullptr:\n";
 
-            f1(NULL);  // 正确，shared_ptr 可以从 nullptr 构造
+            f1(nullptr);  // 正确，shared_ptr 可以从 nullptr 构造
             f2(nullptr);  // 正确，unique_ptr 也可以从 nullptr 构造
             f3(nullptr);  // 正确，裸指针直接匹配 nullptr
 

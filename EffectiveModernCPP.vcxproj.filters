@@ -25,6 +25,9 @@
     <Filter Include="4.SmartPointers">
       <UniqueIdentifier>{73c4fc42-4c7b-4988-a5f8-d5057e360028}</UniqueIdentifier>
     </Filter>
+    <Filter Include="5.Move">
+      <UniqueIdentifier>{7019e572-fb06-4ae1-ac14-8f9663051b1a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -85,6 +88,12 @@
     </ClInclude>
     <ClInclude Include="Item22.h">
       <Filter>4.SmartPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Item23.h">
+      <Filter>5.Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Item24.h">
+      <Filter>5.Move</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
