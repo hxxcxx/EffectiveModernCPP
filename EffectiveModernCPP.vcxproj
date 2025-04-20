@@ -143,6 +143,10 @@
     <ClInclude Include="Item19.h" />
     <ClInclude Include="Item18.h" />
     <ClInclude Include="Item17.h" />
+    <ClInclude Include="Item35.h" />
+    <ClInclude Include="Item39.h" />
+    <ClInclude Include="Item38.h" />
+    <ClInclude Include="Item37.h" />
     <ClInclude Include="Item34.h" />
     <ClInclude Include="Item33.h" />
     <ClInclude Include="Item32.h" />
@@ -152,6 +156,9 @@
     <ClInclude Include="Item22.h" />
     <ClInclude Include="Item3.h" />
     <ClInclude Include="Item2.h" />
+    <ClInclude Include="Item40.h" />
+    <ClInclude Include="Item41.h" />
+    <ClInclude Include="Item42.h" />
     <ClInclude Include="Item5.h" />
     <ClInclude Include="Item7.h" />
     <ClInclude Include="Item10.h" />

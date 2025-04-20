@@ -31,6 +31,12 @@
     <Filter Include="6.lambda">
       <UniqueIdentifier>{753c1113-5d79-42f7-8712-ab91799dbc1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="7.Concurrency">
+      <UniqueIdentifier>{1303edb6-4c30-4a6f-b970-e193f2f308ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8.Tweaks">
+      <UniqueIdentifier>{d5a59202-b75e-4455-8f6e-6e6416315d0f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -112,6 +118,27 @@
     </ClInclude>
     <ClInclude Include="Item34.h">
       <Filter>6.lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="Item35.h">
+      <Filter>7.Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="Item37.h">
+      <Filter>7.Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="Item38.h">
+      <Filter>7.Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="Item39.h">
+      <Filter>7.Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="Item40.h">
+      <Filter>7.Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="Item41.h">
+      <Filter>8.Tweaks</Filter>
+    </ClInclude>
+    <ClInclude Include="Item42.h">
+      <Filter>8.Tweaks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
