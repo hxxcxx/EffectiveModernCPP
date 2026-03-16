@@ -2,39 +2,51 @@
 //
 
 #include <iostream>
-#include "Item1.h"
-#include "Item2.h"
-#include "Item3.h"
-#include "Item5.h"
-#include "Item7.h"
-#include "Item8.h"
-#include "Item10.h"
-#include "Item14.h"
-#include "Item15.h"
-#include "Item16.h"
-#include "Item17.h"
-#include "Item18.h"
-#include "Item19.h"
-#include "Item20.h"
-#include "Item21.h"
-#include "Item22.h"
-#include "Item23.h"
-#include "Item24.h"
-#include "Item27.h"
-#include "Item31.h"
-#include "Item32.h"
-#include "Item33.h"
-#include "Item34.h"
-#include "Item35.h"
-#include "Item37.h"
-#include "Item38.h"
-#include "Item39.h"
-#include "Item40.h"
-#include "Item41.h"
-#include "Item42.h"
+
+// 类型推导
+#include "type_deduction/TemplateTypeDeduction.h"
+#include "type_deduction/AutoTypeDeduction.h"
+#include "type_deduction/DecltypeUsage.h"
+
+// 现代特性
+#include "modern_features/PreferAuto.h"
+#include "modern_features/BraceInitialization.h"
+#include "modern_features/PreferNullptr.h"
+#include "modern_features/ScopedEnums.h"
+#include "modern_features/NoexceptFunctions.h"
+#include "modern_features/ConstexprUsage.h"
+#include "modern_features/ThreadSafeConst.h"
+#include "modern_features/SpecialMemberFunctions.h"
+
+// 智能指针
+#include "smart_pointers/UniquePtrUsage.h"
+#include "smart_pointers/SharedPtrUsage.h"
+#include "smart_pointers/WeakPtrUsage.h"
+#include "smart_pointers/MakeSmartPtr.h"
+#include "smart_pointers/PimplIdiom.h"
+
+// 完美转发
+#include "forwarding/PerfectForwarding.h"
+#include "forwarding/UniversalReferences.h"
+#include "forwarding/OverloadingAlternatives.h"
+
+// Lambda表达式
+#include "lambdas/LambdaCaptures.h"
+#include "lambdas/InitCapture.h"
+#include "lambdas/DecltypeForwarding.h"
+#include "lambdas/LambdaVsBind.h"
+
+// 并发编程
+#include "concurrency/TaskBasedProgramming.h"
+#include "concurrency/ThreadRAII.h"
+#include "concurrency/ThreadHandleDestruction.h"
+#include "concurrency/EventNotification.h"
+#include "concurrency/AtomicVsVolatile.h"
+#include "concurrency/PassByValue.h"
+#include "concurrency/Emplacement.h"
 
 int main()
 {
-    Item42::Demo().run();
-    //Item39::DemoPromise().run();
+    Emplacement::Demo().run();
+    //EventNotification::DemoPromise().run();
 }
