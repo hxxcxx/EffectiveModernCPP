@@ -115,9 +115,17 @@ install(TARGETS ${PROJECT_NAME}
     RUNTIME DESTINATION bin
 )
 
+# 示例程序（可选）
+option(BUILD_EXAMPLES "Build example programs" OFF)
+
+if(BUILD_EXAMPLES)
+    add_subdirectory(examples)
+endif()
+
 # 打印配置信息
 message(STATUS "Project: ${PROJECT_NAME}")
 message(STATUS "C++ Standard: ${CMAKE_CXX_STANDARD}")
 message(STATUS "Boost Version: ${Boost_VERSION}")
 message(STATUS "Boost Include Dirs: ${Boost_INCLUDE_DIRS}")
 message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
+message(STATUS "Build Examples: ${BUILD_EXAMPLES}")

@@ -1,14 +1,33 @@
+/**
+ * @file Emplacement.h
+ * @brief 置入而非插入演示（Item 42）
+ * 
+ * 本文件演示了使用emplace而非insert的优势，这是优化容器性能的重要技巧。
+ * 
+ * 核心概念：
+ * 1. emplace函数在容器中直接构造对象，避免临时对象的创建和销毁
+ * 2. insert/push_back函数需要先创建临时对象，再复制/移动到容器中
+ * 3. emplace通常比insert更高效，但不会更差
+ * 
+ * 性能优势的条件：
+ * - 值被构造到容器中，而不是直接赋值
+ * - 传入的类型与容器的元素类型不一致
+ * - 容器不拒绝已经存在的重复值
+ * 
+ * 注意事项：
+ * - emplace可能执行insert拒绝的类型转换
+ * - 某些情况下emplace可能不如insert直观
+ * - 需要根据具体情况选择使用emplace还是insert
+ * 
+ * @note 本Item对应《Effective Modern C++》Item 42
+ */
+
 #include <iostream>
 #include <string>
 #include <set>
 #include <vector>
 #include <unordered_map>
 #include <regex>
-//Item 42: Consider emplacement instead of insertion
-//
-//原则上，置入函数有时会比插入函数高效，并且不会更差。
-//实际上，当以下条件满足时，置入函数更快：（1）值被构造到容器中，而不是直接赋值；（2）传入的类型与容器的元素类型不一致；（3）容器不拒绝已经存在的重复值。
-//置入函数可能执行插入函数拒绝的类型转换。
 
 namespace Emplacement {
     class EmplaceVsInsertSet {

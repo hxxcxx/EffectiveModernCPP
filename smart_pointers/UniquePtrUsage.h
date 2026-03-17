@@ -1,9 +1,40 @@
+/**
+ * @file UniquePtrUsage.h
+ * @brief std::unique_ptr使用演示（Item 18）
+ * 
+ * 本文件演示了std::unique_ptr的使用方法，这是C++11引入的智能指针，
+ * 用于管理独占所有权的资源。
+ * 
+ * 核心概念：
+ * 1. unique_ptr独占对象所有权，不可复制，只能移动
+ * 2. 支持自定义删除器，用于管理非堆内存或需要特殊清理的资源
+ * 3. 与多态基类配合使用，实现工厂模式
+ * 4. 内存开销小，通常等同于裸指针
+ * 
+ * 使用场景：
+ * - 工厂函数返回对象
+ * - 管理文件句柄、网络连接等资源
+ * - 实现Pimpl惯用法
+ * - 任何需要独占所有权的场景
+ * 
+ * @note 本Item对应《Effective Modern C++》Item 18
+ */
+
 #pragma once
 #include <iostream>
 #include <memory>
 #include <string>
-//默认情况，资源销毁通过delete实现，但是支持自定义删除器。有状态的删除器和函数指针会增加std::unique_ptr对象的大小
+
 namespace UniquePtrUsage {
+    /**
+     * @brief std::unique_ptr使用演示类
+     * 
+     * 本类演示了unique_ptr的各种用法，包括：
+     * - 基本使用方法
+     * - 自定义删除器
+     * - 多态基类
+     * - 工厂函数
+     */
     class Demo {
     public:
         // 抽象基类

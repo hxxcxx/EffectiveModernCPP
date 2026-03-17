@@ -66,6 +66,90 @@ make -j$(nproc)
 ./EffectiveModernCPP
 ```
 
+## 🎮 使用方法
+
+### 命令行参数
+
+程序支持多种运行模式：
+
+```powershell
+# 运行默认Item（Item42: emplace）
+.\EffectiveModernCPP.exe
+
+# 列出所有可用的Item
+.\EffectiveModernCPP.exe --list
+
+# 运行指定的Item
+.\EffectiveModernCPP.exe template
+.\EffectiveModernCPP.exe auto
+.\EffectiveModernCPP.exe unique-ptr
+
+# 运行所有Item
+.\EffectiveModernCPP.exe --all
+
+# 显示帮助信息
+.\EffectiveModernCPP.exe --help
+```
+
+### 可用的Item名称
+
+**类型推导**:
+- `template` - 模板类型推导
+- `auto` - auto类型推导
+- `decltype` - decltype的使用
+
+**现代特性**:
+- `prefer-auto` - 优先使用auto
+- `brace-init` - 大括号初始化
+- `nullptr` - 优先使用nullptr
+- `scoped-enum` - 限域枚举
+- `noexcept` - noexcept函数
+- `constexpr` - constexpr的使用
+- `thread-safe` - 线程安全的const
+- `special-member` - 特殊成员函数
+
+**智能指针**:
+- `unique-ptr` - std::unique_ptr
+- `shared-ptr` - std::shared_ptr
+- `weak-ptr` - std::weak_ptr
+- `make-smart` - make_unique/make_shared
+- `pimpl` - Pimpl惯用法
+
+**完美转发**:
+- `perfect-forward` - 完美转发
+- `universal-ref` - 通用引用
+- `overloading` - 重载替代方案
+
+**Lambda表达式**:
+- `lambda-capture` - Lambda捕获
+- `init-capture` - 初始化捕获
+- `decltype-forward` - decltype与转发
+- `lambda-bind` - Lambda vs std::bind
+
+**并发编程**:
+- `task-based` - 基于任务的编程
+- `thread-raii` - 线程RAII
+- `thread-handle` - 线程句柄析构
+- `event-notification` - 事件通知
+- `atomic` - atomic vs volatile
+- `pass-by-value` - 按值传递
+- `emplace` - 置入而非插入
+
+### 构建示例程序
+
+```powershell
+# 配置时启用示例程序
+cmake -DBUILD_EXAMPLES=ON ..
+
+# 构建示例程序
+cmake --build . --config Release
+
+# 运行示例程序
+.\bin\examples\basic_type_deduction.exe
+.\bin\examples\smart_pointer_basics.exe
+.\bin\examples\lambda_basics.exe
+```
+
 ## 📁 项目结构
 
 ```

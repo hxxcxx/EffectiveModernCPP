@@ -1,8 +1,34 @@
+/**
+ * @file TemplateTypeDeduction.h
+ * @brief 模板类型推导演示（Item 1）
+ * 
+ * 本文件演示了C++模板参数类型推导的规则，这是理解现代C++类型系统的基础。
+ * 
+ * 核心概念：
+ * 1. 在模板类型推导中，引用和const限定符的处理
+ * 2. 数组和函数到指针的退化
+ * 3. 万能引用（T&&）的特殊推导规则
+ * 
+ * 类型推导规则：
+ * - 参数为值传递（T param）：引用和const被忽略
+ * - 参数为引用（T& param）：保留const和引用
+ * - 参数为万能引用（T&& param）：根据实参类型推导
+ * - 数组和函数作为实参时会退化为指针
+ * 
+ * @note 本Item对应《Effective Modern C++》Item 1
+ */
+
 #pragma once 
 #include <iostream>
 #include "../utils/type.h"
 
 namespace TemplateTypeDeduction {
+    /**
+     * @brief 模板类型推导演示类
+     * 
+     * 本类提供了多个示例函数，演示不同的模板参数类型推导场景。
+     * 每个函数都展示了特定的推导规则和注意事项。
+     */
     class Demo {
     public:
         template<typename T>
