@@ -18,6 +18,7 @@
 #include <algorithm>
 #include <functional>
 #include <string>
+#include <memory>
 
 /**
  * @brief 演示Lambda的基本语法
